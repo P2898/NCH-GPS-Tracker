@@ -3,12 +3,12 @@ import { getFirestore, doc, setDoc, deleteDoc, serverTimestamp } from 'firebase/
 
 // Placeholder Firebase Config - Needs to be replaced with actual keys from Firebase Console
 const firebaseConfig = {
-  apiKey: "AIzaSyBSFWIOvYnDHU8IlKqkgqlKkeWKxUliAFQ",
-  authDomain: "nch-gps-tracker.firebaseapp.com",
-  projectId: "nch-gps-tracker",
-  storageBucket: "nch-gps-tracker.firebasestorage.app",
-  messagingSenderId: "790756782260",
-  appId: "1:790756782260:web:5cbb5d63a25ec741d427e1"
+  apiKey: "YOUR_FIREBASE_API_KEY",
+  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_ID.firebasestorage.app",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
 };
 
 // Initialize Firebase
